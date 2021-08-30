@@ -5,6 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+/*Author: Hyejin Kim
+Date: 8/29/2021*/
+
+//This class is main class.
+
 public class Main {
     public static void main(String[] args) throws IOException{
         InputStreamReader streamReader = new InputStreamReader(System.in);
