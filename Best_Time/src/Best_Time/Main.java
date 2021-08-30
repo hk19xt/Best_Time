@@ -11,7 +11,7 @@ public class Main {
 
         BufferedReader reader = new BufferedReader(streamReader);
 
-        System.out.println("Enter the input price values.");
+        System.out.println("Enter the input price values separated by comma ',' ");
         String[] inputs = reader.readLine().split(",");
 
         reader.close();
@@ -22,6 +22,7 @@ public class Main {
             inputs2[i] = Integer.parseInt(inputs[i]);
         }
 
-        System.out.println("prices: " + Arrays.toString(inputs));
+        System.out.println("User's input prices: " + Arrays.toString(inputs));
+        System.out.println("Profit output: " + Best_Time.bestProfit(inputs2));
     }
 }
